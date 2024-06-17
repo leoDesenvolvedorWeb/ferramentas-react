@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <Welcome nome ="Leonardo" sobrenome="Ramos"/>
       <div className="reverse">
-        <p>Os textos a baixo são criados pelo componente Reverse:</p>
+        <p>Os textos abaixo são criados pelo componente Reverse:</p>
         <Reverse>
           meu texto
         </Reverse>
