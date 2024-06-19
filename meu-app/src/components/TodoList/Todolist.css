@@ -1,0 +1,24 @@
+/*Alinhar vertical e hozizontal com flex box, itens abaixo do outro e sobreamento*/
+
+.todolist {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/*Espaçamemto de um item sobre o ourtro e cor*/
+
+.todos .todo-item {
+    list-style-position: inside;
+    margin: 5px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background: #ced6e0;
+}

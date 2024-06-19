@@ -1,7 +1,7 @@
 import './App.css';
-import Welcome from './compoments/Welcome/Welcome';
-import Reverse from './compoments/Reverse/Reverse';
-import Todolist from './compoments/TodoList/Todolist';
+import Welcome from './components/Welcome/Welcome';
+import Reverse from './components/Reverse/Reverse';
+import Todolist from './components/TodoList/Todolist';
 
 function App() {
   return (
