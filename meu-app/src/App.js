@@ -1,6 +1,7 @@
 import './App.css';
 import Welcome from './compoments/Welcome/Welcome';
 import Reverse from './compoments/Reverse/Reverse';
+import Todolist from './compoments/TodoList/Todolist';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Reverse texto="meu texto" />
         <Reverse texto="o meu texto que deve ser investido" />
       </div>
+      <Todolist/>
     </div>
   );
 }
