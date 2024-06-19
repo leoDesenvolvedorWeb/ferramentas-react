@@ -1,9 +1,10 @@
-const Reverse = ({texto}) => {
-    const reverseText = texto.split('').reverse().join('');
+import './Reverse.css'
+const Reverse = ({children}) => {
+    const reverseText = children.split('').reverse().join('');
     console.log(reverseText);
 
     return (
-        <p>{reverseText}</p>
+        <p className="reverse-text">{children} <span></span> {reverseText}</p>
     )
 }
 
